@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Commissioner:wght@600&family=Russo+One&family=Satisfy&family=Secular+One&family=Skranji&display=swap');
+
+body {
+  background-color: #f2f5f7;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+.container {
+  width: 94%;
+  margin: 0 auto;
+}
+
+.headerPrincipal {
+  background: #fc4a1a;
+  background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);
+  background: linear-gradient(to right, #f7b733, #fc4a1a);
+  padding: 40px 0;
+  border-bottom: solid 1px #d1cdcd;
+}
+
+.headerPrincipal-titulo {
+    font-family: 'Carter One', cursive;
+  font-weight: bold;
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.headerPrincipal-titulo a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.headerPrincipal-nav-link {
+    font-family: 'Commissioner', sans-serif;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: #4c4c50;
+  background-color: #f8e537;
+  text-decoration: none;
+  transition: 0.5s;
+  display: block;
+}
+
+.contenidoPrincipal {
+  padding: 50px;
+  background-image: url("../img/fondo/mazorca.jpg");
+}
+
+.contenidoPrincipal-productos {
+  margin-bottom: 50px;
+}
+
+.subtitulo {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: 'Russo One', sans-serif;
+  color: rgb(53, 52, 52);
+}
+
+.contenidoPrincipal-productos-link {
+  height: 250px;
+  background-color: #fff;
+  text-align: center;
+  margin: 1%;
+  transition: 0.3s;
+  box-shadow: 2px 2px 2px #ccc;
+  position: relative;
+}
+
+.contenidoPrincipal-productos-link a {
+  text-decoration: none;
+  font-family: 'Secular One', sans-serif;
+  font-size: 2em;
+  color: rgb(255, 60, 1);
+  font-weight: bold;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.contenidoPrincipal-productos-link:hover {
+  box-shadow: 4px 4px 4px #ccc;
+}
+
+.contenidoPrincipal-productos-link a:before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 10px auto;
+}
+
+.contenidoPrincipal-productos-link {
+  background-color: white;
+}
+
+.contenidoPrincipal-productos-link h3 {
+  margin-top: 50px;
+}
+
+.imagen-efecto img {
+  transition: all 0.2s linear;
+}
+
+.imagen-efecto a.link {
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+}
+
+.imagen-efecto:hover img {
+  opacity: 0.5;
+}
+
+.imagen-efecto:hover a.link {
+  opacity: 1;
+  transform: translateX(0px);
+  transition-delay: 0.2s;
+}
+
+.rodapePrincipal {
+  background-color: #6c6d6e;
+  padding-top: 35px;
+}
+
+.rodapePrincipal .subtitulo {
+  color: #fff;
+}
+
+.rodapePrincipal-nav-link {
+  text-decoration: none;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.rodapePrincipal-nav-link {
+    font-family: 'Commissioner', sans-serif;
+  font-size: 0.9em;
+}
+
+.nav-list-title {
+  font-weight: 700;
+  font-size: 1.3em;
+  margin: 0.9em 0;
+  padding-left: 0.3em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+}
+
+.nav-list-title + .rodapePrincipal-nav-link {
+  margin-top: 0;
+}
+
+.nav-list-title-norte {
+  color: #f37b69;
+  border-left: 4px solid #ec6e5a;
+}
+
+.nav-list-title-sur {
+  color: #ad85bf;
+  border-left: 4px solid #ad85bf;
+}
+
+.nav-list-title-oeste {
+  color: #5ec6f3;
+  border-left: 4px solid #5ec6f3;
+}
+
+.nav-list-title-caba {
+  color: #25d285;
+  border-left: 4px solid #25d285;
+}
+
+.rodapePrincipal-autor {
+    font-family: 'Commissioner', sans-serif;
+  margin-top: 30px;
+  background: #f2f5f7;
+  padding: 20px 0;
+  background: #ffe259;
+  background: -webkit-linear-gradient(to right, #ffa751, #ffe259);
+  background: linear-gradient(to right, #ffa751, #ffe259);
+}
+
+.rodapePrincipal-autor-me{
+    font-family: 'Skranji', cursive;
+    color: rgb(185, 111, 27);
+}
+
+.rodapePrincipal-contactoForm {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.rodapePrincipal-contactoForm label[for="email-contacto"] {
+  font-weight: bold;
+  font-size: 14px;
+  color: #000;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.rodapePrincipal-contactoForm-emailInput {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 10px;
+}
+
+.rodapePrincipal-contactoForm-submit {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #4dba7a;
+  color: #fff;
+  cursor: pointer;
+}
+
+.rodapePrincipal-contactoForm-submit,
+.rodapePrincipal-contactoForm-emailInput {
+  outline: 0;
+  border: 1px solid #4dba7a;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.videoSobre {
+  background-color: #ec3939;
+  padding: 55px 0;
+}
+
+.videoSobre-video {
+  max-width: 100%;
+}
+
+.videoSobre .container {
+  color: #fff;
+}
+
+.videoSobre-sobre-title {
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+
+.videoSobre-sobre {
+    font-family: 'Satisfy', cursive;
+  font-size: 1.7em;
+  line-height: 2;
+}
+
+.videoSobre-button {
+  border-radius: 8px;
+  background-color: #ec6e5a;
+  display: block;
+  color: #fff;
+  border: none;
+  height: 50px;
+  font-size: 0.8em;
+  outline: none;
+  cursor: pointer;
+}
+
+.rodapePrincipal-contactoForm-legend {
+  margin-bottom: 10px;
+}
+
+@media (min-width: 769px) {
+  .container {
+    width: 85%;
+  }
+
+  .subtitulo {
+    text-align: left;
+  }
+
+  .headerPrincipal-nav-link {
+    border-radius: 5px;
+  }
+
+  .headerPrincipal-nav-link:hover {
+    color: rgb(0, 0, 0);
+    background-color: white;
+  }
+
+  .headerPrincipal-titulo {
+    margin: 0;
+  }
+
+  .headerPrincipal-nav {
+    width: auto;
+  }
+
+  .headerPrincipal-nav-link {
+    width: auto;
+    margin: 0 0 0 10px;
+  }
+
+  .rodapePrincipal-contactoForm {
+    margin-top: 0;
+    text-align: left;
+  }
+
+  .contenidoPrincipal-productos-link:nth-child(3n) {
+    margin-right: 0;
+  }
+
+  .contenidoPrincipal-productos-link:nth-child(3n + 1) {
+    margin-left: 0;
+  }
+
+  .rodapePrincipal-autor .container {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1000px) {
+  .contenidoPrincipal-productos-link {
+    margin: 1.333%;
+  }
+
+  .contenidoPrincipal-productos-link:nth-child(3n) {
+    margin-right: 1.33%;
+  }
+
+  .contenidoPrincipal-productos-link:nth-child(3n + 1) {
+    margin-left: 1.333%;
+  }
+
+  .contenidoPrincipal-productos-link:nth-child(4n) {
+    margin-right: 0;
+  }
+
+  .contenidoPrincipal-productos-link:nth-child(4n + 1) {
+    margin-left: 0;
+  }
+
+  .videoSobre-sobre {
+    margin-left: 1.5em;
+  }
+}
